@@ -1,0 +1,10 @@
+<div id="current">
+  <h1>The Current Time & Date:</h1> 
+</div>
+  
+<!-- strftime displays time format -->
+<div id="display">
+	<%= @time.strftime("%b %d, %Y") %><br>
+	<%= @time.strftime("%H:%M %p") %>
+</div>
+
